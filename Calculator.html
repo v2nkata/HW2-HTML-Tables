@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML-Calculator</title>
+        <meta charset="UTF-8">   
+<style>
+table,td {
+     border-style: solid;
+     border-color: #29293d;
+     background-color: #666699;     
+}
+table {
+      border-collapse:collapse;
+      width:300px;
+}
+td {
+      padding: 15px;
+      height:40px;
+}
+input[type=text] {
+     background-color: transparent;
+     border-color:transparent;
+     display: inline-block;
+     width:100%;
+     text-align: right;  
+     font-size:150%;    
+}
+input[type=submit] {
+     background-color: transparent;
+     border-color:transparent;
+     display: inline-block;
+     width:100%;
+     text-align:center;
+     font-size:150%;
+}
+
+</style>         
+</head>
+<body>
+<table>
+      <form>
+      <tr>
+            <td colspan="4";><input type="text" value="123" style="text-align:right;"></td>
+      </tr>
+      <tr>
+            <td><input type="submit" value="1" ></td>
+            <td><input type="submit" value="2" ></td>
+            <td><input type="submit" value="3" ></td>
+            <td><input type="submit" value="+" ></td>
+       </tr>
+       <tr>
+            <td><input type="submit" value="4" ></td>
+            <td><input type="submit" value="5" ></td>
+            <td><input type="submit" value="6" ></td>
+            <td><input type="submit" value="-" ></td>
+       </tr>
+       <tr>
+            <td><input type="submit" value="7" ></td>
+            <td><input type="submit" value="8" ></td>
+            <td><input type="submit" value="9" ></td>
+            <td><input type="submit" value="*" ></td>
+       </tr>     
+       <tr>
+            <td colspan="2"><input type="submit" value="0" ></td>
+            <td><input type="submit" value="." ></td>
+            <td><input type="submit" value="/" ></td>
+       </tr>
+       </form>
+</table> 
+</body>
+</html>
